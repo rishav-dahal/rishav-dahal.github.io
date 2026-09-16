@@ -18,6 +18,11 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+sitemap:
+  changefreq: weekly
+  priority: 0.7
+  filename: sitemap.xml
+
 services:
   googleAnalytics:
     id: "G-GLDKJ0K8EV"
