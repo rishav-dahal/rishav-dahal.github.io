@@ -406,10 +406,7 @@ code, kbd, samp, pre {
 }
 
 .post-description {
-  font-size: 1.15rem;
-  line-height: 1.6;
-  color: var(--secondary);
-  margin-bottom: 1.5rem;
+  display: none !important;
 }
 
 .post-meta {
