@@ -26,6 +26,8 @@ showtoc: true
 draft: false
 ---
 
+> 📦 **Open Source Repository**: The complete codebase, architecture schemas, and implementation files for this system are available on GitHub at [**rishav-dahal/Payment**](https://github.com/rishav-dahal/Payment).
+
 Anyone who has built checkout systems in production knows the sinking feeling in your stomach when a user messages support: *"Your app charged my wallet twice, but my order says failed!"*
 
 When dealing with payment gateways (like eSewa, Khalti, Stripe, or local bank switch APIs), the network is your worst enemy:
@@ -305,3 +307,15 @@ async def initiate_payment(
 1. **Never trust redirect URLs for settlement**: When a customer finishes paying on eSewa or Khalti and gets redirected back to your `success_url`, **never** mark the order as paid based solely on that browser redirect. The user could tamper with query parameters. Only settle when your backend receives the direct server-to-server webhook or you poll the gateway's status verification API.
 2. **Handle gateway downtime with Dead Letter Queues (DLQ)**: If your database is under maintenance when a webhook hits, your server returns a 500 error. Most gateways retry for a few hours and then stop forever. Push raw webhook payloads to RabbitMQ or an SQS Dead Letter Queue before processing them so you can replay missed events.
 3. **Log raw payloads**: Store the verbatim string of every incoming webhook in an `audit_logs` table before parsing it. When a reconciliation dispute arises, having the unparsed payload with the exact gateway timestamp is your best defense.
+
+
+---
+
+## 🛠️ GitHub Repository & Next Steps
+
+The complete open-source source code and architecture discussed in this guide are publicly available:
+
+- **Project Repository**: [Payment Microservice & Gateway Orchestrator on GitHub](https://github.com/rishav-dahal/Payment)
+- **Developer Profile**: [@rishav-dahal](https://github.com/rishav-dahal)
+
+If you're building a similar system or encounter edge cases in your deployment, feel free to star the repo, file an issue, or submit an optimization pull request!

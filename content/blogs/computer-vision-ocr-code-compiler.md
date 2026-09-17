@@ -26,6 +26,8 @@ showtoc: true
 draft: false
 ---
 
+> 📦 **Open Source Repository**: The complete codebase, architecture schemas, and implementation files for this system are available on GitHub at [**rishav-dahal/OCRcompiler2.0**](https://github.com/rishav-dahal/OCRcompiler2.0).
+
 During my engineering semesters, our professors would regularly hand out printed lab manuals, past exam papers, and textbook chapters with dozens of lines of C++ or Python code.
 
 Retyping 60 lines of code by hand was mind-numbing: one misplaced semicolon or confusing an uppercase `O` with a `0`, and you'd waste 20 minutes debugging compiler errors that weren't even your fault.
@@ -229,3 +231,15 @@ Building an OCR code compiler requires bridging the physical imperfections of pr
 - Use **adaptive Gaussian thresholding** to eliminate harsh shadows from curved book spines.
 - Tune **Tesseract PSM 6** with custom regex heuristics to preserve code syntax tokens.
 - **Isolate all executions** inside ephemeral, resource-constrained, network-disabled Docker containers to guarantee server security.
+
+
+---
+
+## 🛠️ GitHub Repository & Next Steps
+
+The complete open-source source code and architecture discussed in this guide are publicly available:
+
+- **Project Repository**: [OCRcompiler 2.0 - Computer Vision & Code Sandbox on GitHub](https://github.com/rishav-dahal/OCRcompiler2.0)
+- **Developer Profile**: [@rishav-dahal](https://github.com/rishav-dahal)
+
+If you're building a similar system or encounter edge cases in your deployment, feel free to star the repo, file an issue, or submit an optimization pull request!

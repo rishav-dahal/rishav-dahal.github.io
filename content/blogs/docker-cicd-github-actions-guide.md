@@ -26,6 +26,8 @@ showtoc: true
 draft: false
 ---
 
+> 📦 **Open Source Repository**: The complete codebase, architecture schemas, and implementation files for this system are available on GitHub at [**rishav-dahal/Portfolio-2.0**](https://github.com/rishav-dahal/Portfolio-2.0).
+
 We've all been there: It's 2:00 AM, you've just pushed a critical hotfix to `main`, and now you have to manually SSH into your cloud VPS. You run `git pull`, trigger `pip install -r requirements.txt`, and suddenly your terminal screams at you with a wall of red text:
 
 ```bash
@@ -291,3 +293,15 @@ When GitHub Actions executes `docker compose up -d --no-deps app`:
 3. **Never run containers as `root`**: If your app has a remote code execution vulnerability and runs as root, an attacker owns the host kernel. Always create an unprivileged user (`USER appuser`).
 
 Setting up automated CI/CD takes an hour upfront, but it saves countless hours of debugging, removes human error, and ensures that when you push code, production deploys smoothly while you sleep soundly.
+
+
+---
+
+## 🛠️ GitHub Repository & Next Steps
+
+The complete open-source source code and architecture discussed in this guide are publicly available:
+
+- **Project Repository**: [Automated Docker & Hugo CI/CD GitHub Actions Pipeline on GitHub](https://github.com/rishav-dahal/Portfolio-2.0)
+- **Developer Profile**: [@rishav-dahal](https://github.com/rishav-dahal)
+
+If you're building a similar system or encounter edge cases in your deployment, feel free to star the repo, file an issue, or submit an optimization pull request!

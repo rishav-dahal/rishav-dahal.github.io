@@ -26,6 +26,8 @@ showtoc: true
 draft: false
 ---
 
+> 📦 **Open Source Repository**: The complete codebase, architecture schemas, and implementation files for this system are available on GitHub at [**rishav-dahal/LAN-TODO**](https://github.com/rishav-dahal/LAN-TODO).
+
 Most web developers spend their careers comfortably cushioned by high-level abstractions like Express, Django, or FastAPI. You call `app.get()`, and the framework magically handles HTTP handshakes, keep-alive headers, and concurrent threads.
 
 Then you decide to build something low-level—a custom telemetry ingestor, a multiplayer game server, or an order routing engine—where a 20ms HTTP overhead is unacceptable. You open up C++, invoke `socket()`, and immediately enter a world where:
@@ -292,3 +294,15 @@ The receiving worker loop reads exactly 4 bytes first, extracts `N`, and then lo
 ## Summary
 
 Moving from high-level web frameworks to low-level C++ sockets reveals how the internet actually operates under the hood. By utilizing a fixed worker thread pool, ignoring `SIGPIPE`, framing streams with length prefixes, and tuning socket reuse flags, you can build a server capable of pushing hundreds of thousands of low-latency packets per second with minimal CPU and memory overhead.
+
+
+---
+
+## 🛠️ GitHub Repository & Next Steps
+
+The complete open-source source code and architecture discussed in this guide are publicly available:
+
+- **Project Repository**: [Multithreaded C++ Socket Server (LAN-TODO) on GitHub](https://github.com/rishav-dahal/LAN-TODO)
+- **Developer Profile**: [@rishav-dahal](https://github.com/rishav-dahal)
+
+If you're building a similar system or encounter edge cases in your deployment, feel free to star the repo, file an issue, or submit an optimization pull request!

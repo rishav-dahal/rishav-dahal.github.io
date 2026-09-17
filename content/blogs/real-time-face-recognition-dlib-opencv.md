@@ -26,6 +26,8 @@ showtoc: true
 draft: false
 ---
 
+> 📦 **Open Source Repository**: The complete codebase, architecture schemas, and implementation files for this system are available on GitHub at [**rishav-dahal/Face-Recognition-Based-Attendance-System**](https://github.com/rishav-dahal/Face-Recognition-Based-Attendance-System).
+
 When I first attempted to build an automated attendance system using computer vision, I followed the standard beginner OpenCV tutorial: grab a webcam feed, convert to grayscale, load `haarcascade_frontalface_default.xml`, and draw a green bounding box.
 
 It took about five minutes to realize why Haar Cascades are completely unusable for real-world biometrics:
@@ -216,3 +218,15 @@ class FaceBiometricSystem:
 ## Summary
 
 Moving from primitive intensity-based Haar cascades to 128-dimensional metric learning transforms face recognition from an unreliable toy into a production-grade biometric system. By combining Dlib landmarks, frame downsampling, affine alignment, and strict Euclidean thresholds, you can achieve real-time, low-latency identification directly on local CPU hardware.
+
+
+---
+
+## 🛠️ GitHub Repository & Next Steps
+
+The complete open-source source code and architecture discussed in this guide are publicly available:
+
+- **Project Repository**: [Face Recognition Biometric Attendance System on GitHub](https://github.com/rishav-dahal/Face-Recognition-Based-Attendance-System)
+- **Developer Profile**: [@rishav-dahal](https://github.com/rishav-dahal)
+
+If you're building a similar system or encounter edge cases in your deployment, feel free to star the repo, file an issue, or submit an optimization pull request!

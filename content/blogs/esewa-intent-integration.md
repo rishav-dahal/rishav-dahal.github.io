@@ -26,6 +26,8 @@ showtoc: true
 draft: false
 ---
 
+> 📦 **Open Source Repository**: The complete codebase, architecture schemas, and implementation files for this system are available on GitHub at [**rishav-dahal/Payment**](https://github.com/rishav-dahal/Payment).
+
 > **Published:** June 2026  
 > **Stack:** Django · Django REST Framework · Python 3.11+ · eSewa Intent API v2
 
@@ -948,3 +950,15 @@ Both the callback endpoint and the redirect endpoint route through the same `res
 | `FAILED` | Payment failed — notify user |
 | `CANCELED` | User cancelled — allow retry |
 | `PENDING` | Not yet resolved — poll again later |
+
+
+---
+
+## 🛠️ GitHub Repository & Next Steps
+
+The complete open-source source code and architecture discussed in this guide are publicly available:
+
+- **Project Repository**: [eSewa Intent API v2 Microservice Architecture on GitHub](https://github.com/rishav-dahal/Payment)
+- **Developer Profile**: [@rishav-dahal](https://github.com/rishav-dahal)
+
+If you're building a similar system or encounter edge cases in your deployment, feel free to star the repo, file an issue, or submit an optimization pull request!

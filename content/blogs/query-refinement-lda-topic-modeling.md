@@ -26,6 +26,8 @@ showtoc: true
 draft: false
 ---
 
+> 📦 **Open Source Repository**: The complete codebase, architecture schemas, and implementation files for this system are available on GitHub at [**rishav-dahal/Modular-Query-Refinement**](https://github.com/rishav-dahal/Modular-Query-Refinement).
+
 In the current artificial intelligence boom, the standard response to almost any natural language processing problem is: *"Just throw a fine-tuned 7B LLM or a dense vector embedding database at it."*
 
 While dense vector retrieval (RAG) is fantastic, it comes with brutal production trade-offs:
@@ -193,3 +195,15 @@ In our experimental evaluation against benchmark information retrieval corpora:
 ## Summary
 
 Before committing to heavy LLM pipelines with recurring API bills and 200ms latency penalties, consider classic probabilistic topic modeling. Latent Dirichlet Allocation provides deterministic, mathematically sound query enhancement that is lightweight, interpretable, and blazing fast on production systems.
+
+
+---
+
+## 🛠️ GitHub Repository & Next Steps
+
+The complete open-source source code and architecture discussed in this guide are publicly available:
+
+- **Project Repository**: [Modular Query Refinement using LDA (ICICSET 2025) on GitHub](https://github.com/rishav-dahal/Modular-Query-Refinement)
+- **Developer Profile**: [@rishav-dahal](https://github.com/rishav-dahal)
+
+If you're building a similar system or encounter edge cases in your deployment, feel free to star the repo, file an issue, or submit an optimization pull request!

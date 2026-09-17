@@ -26,6 +26,8 @@ showtoc: true
 draft: false
 ---
 
+> 📦 **Open Source Repository**: The complete codebase, architecture schemas, and implementation files for this system are available on GitHub at [**rishav-dahal/Karya-Construction**](https://github.com/rishav-dahal/Karya-Construction).
+
 If you come from the Node.js, Go, or Python world, containerizing an app feels straightforward: you write a Dockerfile, `EXPOSE 8000`, and your code listens on an HTTP port.
 
 The first time you try to containerize a PHP + MySQL project (like an inventory management portal or Laravel backend), you hit a brick wall:
@@ -243,3 +245,15 @@ Containerizing full-stack PHP requires respecting the separation of duties:
 - Let **PHP-FPM** run backend business logic over FastCGI.
 - Tune FastCGI buffers to avoid random `502 Bad Gateway` errors.
 - Use Docker Compose `healthcheck` on MySQL so PHP services never boot against an unready database.
+
+
+---
+
+## 🛠️ GitHub Repository & Next Steps
+
+The complete open-source source code and architecture discussed in this guide are publicly available:
+
+- **Project Repository**: [PHP-FPM, Nginx & MySQL Web Architecture on GitHub](https://github.com/rishav-dahal/Karya-Construction)
+- **Developer Profile**: [@rishav-dahal](https://github.com/rishav-dahal)
+
+If you're building a similar system or encounter edge cases in your deployment, feel free to star the repo, file an issue, or submit an optimization pull request!

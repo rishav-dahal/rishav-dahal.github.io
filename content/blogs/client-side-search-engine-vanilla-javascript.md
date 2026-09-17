@@ -26,6 +26,8 @@ showtoc: true
 draft: false
 ---
 
+> 📦 **Open Source Repository**: The complete production dataset, prefix search engine, and Gotra Compatibility Checker are open-source on GitHub at [**rishav-dahal/cast-in-Nepal**](https://github.com/rishav-dahal/cast-in-Nepal).
+
 When I started building **[Cast in Nepal](/cast-in-Nepal/)**—an open archive documenting over 700 verified Nepali surnames, gotras, and clan lineages—my first instinct was to spin up a quick backend API with PostgreSQL and full-text search.
 
 Then I paused and looked at the reality of how people would actually use it:

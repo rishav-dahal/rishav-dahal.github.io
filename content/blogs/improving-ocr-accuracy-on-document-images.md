@@ -22,6 +22,8 @@ showtoc: true
 draft: false
 ---
 
+> 📦 **Open Source Repository**: The complete codebase, architecture schemas, and implementation files for this system are available on GitHub at [**rishav-dahal/OCRcompiler2.0**](https://github.com/rishav-dahal/OCRcompiler2.0).
+
 Optical Character Recognition (OCR) is revolutionizing the way we digitize and process documents. Whether it’s converting a scanned document into editable text or extracting data from receipts, OCR technology is increasingly relied upon across industries. However, one of the main challenges faced by OCR systems is their accuracy, especially when dealing with noisy or poorly scanned images. In this blog, I’ll walk you through the techniques I used to improve OCR accuracy on document images by leveraging pre-processing methods.
 
 ## The Problem: Noisy Images and OCR Inaccuracy
@@ -73,3 +75,15 @@ The cleaned-up version on the right has reduced background noise, sharper charac
 Pre-processing is a vital step in enhancing OCR accuracy. By cleaning the image and preparing it for text extraction, you can reduce errors and improve results. Whether you're working with old documents, receipts, or photographs, applying these pre-processing techniques can significantly boost OCR performance.
 
 As OCR technology evolves, I believe that combining advanced pre-processing techniques with machine learning models will continue to improve the accuracy and reliability of document digitization processes, making them even more useful in real-world applications.
+
+
+---
+
+## 🛠️ GitHub Repository & Next Steps
+
+The complete open-source source code and architecture discussed in this guide are publicly available:
+
+- **Project Repository**: [Document Image Preprocessing & OCR Optimization on GitHub](https://github.com/rishav-dahal/OCRcompiler2.0)
+- **Developer Profile**: [@rishav-dahal](https://github.com/rishav-dahal)
+
+If you're building a similar system or encounter edge cases in your deployment, feel free to star the repo, file an issue, or submit an optimization pull request!

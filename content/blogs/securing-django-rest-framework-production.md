@@ -26,6 +26,8 @@ showtoc: true
 draft: false
 ---
 
+> 📦 **Open Source Repository**: The complete codebase, architecture schemas, and implementation files for this system are available on GitHub at [**rishav-dahal/Learn-django-with-rishav**](https://github.com/rishav-dahal/Learn-django-with-rishav).
+
 The first time I deployed a Django REST Framework (DRF) backend to a public production server, I thought I had checked every box: `DEBUG = False`, `ALLOWED_HOSTS` configured, and HTTPS certificates active.
 
 Within 48 hours, our server logs showed automated bots blasting our `/api/auth/login/` endpoint with 60 requests per second.
@@ -215,3 +217,15 @@ Securing Django REST Framework in production isn't about one setting—it's abou
 - Use **15-minute access tokens with refresh token rotation and blacklisting**.
 - Enable **`CONN_MAX_AGE` and connection health checks** to avoid exhausting Postgres limits.
 - Turn on **HSTS and strict security headers** to protect client sessions against downgrade and clickjacking attacks.
+
+
+---
+
+## 🛠️ GitHub Repository & Next Steps
+
+The complete open-source source code and architecture discussed in this guide are publicly available:
+
+- **Project Repository**: [Production Django & DRF Security Architecture on GitHub](https://github.com/rishav-dahal/Learn-django-with-rishav)
+- **Developer Profile**: [@rishav-dahal](https://github.com/rishav-dahal)
+
+If you're building a similar system or encounter edge cases in your deployment, feel free to star the repo, file an issue, or submit an optimization pull request!

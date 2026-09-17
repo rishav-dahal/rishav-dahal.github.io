@@ -25,6 +25,8 @@ showtoc: true
 draft: false
 ---
 
+> 📦 **Open Source Repository**: The complete codebase, architecture schemas, and implementation files for this system are available on GitHub at [**rishav-dahal/CGPA-Calculator**](https://github.com/rishav-dahal/CGPA-Calculator).
+
 When I first sat down to write an academic GPA and CGPA calculator for our college engineering batch, I thought it would be a quick weekend project. Multiply grade points by credit hours, sum them up, divide by total credits, and render a Bootstrap table. Done in an afternoon, right?
 
 I was completely wrong.
@@ -332,3 +334,15 @@ attachListeners();
 3. **Database query optimization**: If a student has 8 semesters with 6 subjects each, a naive loop will hit the database 48 times (`N+1` query problem). Always use `.select_related()` and `.prefetch_related('subjects')` when rendering transcript summaries.
 
 Building this system taught me that what seems like simple grade school math often conceals real relational database challenges, edge cases, and precision bugs. By modeling retakes cleanly and enforcing strict Decimal arithmetic, you turn a weekend script into a reliable academic grading platform.
+
+
+---
+
+## 🛠️ GitHub Repository & Next Steps
+
+The complete open-source source code and architecture discussed in this guide are publicly available:
+
+- **Project Repository**: [Academic GPA & CGPA Calculation Engine on GitHub](https://github.com/rishav-dahal/CGPA-Calculator)
+- **Developer Profile**: [@rishav-dahal](https://github.com/rishav-dahal)
+
+If you're building a similar system or encounter edge cases in your deployment, feel free to star the repo, file an issue, or submit an optimization pull request!

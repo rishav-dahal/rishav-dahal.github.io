@@ -26,6 +26,8 @@ showtoc: true
 draft: false
 ---
 
+> 📦 **Open Source Repository**: The complete codebase, architecture schemas, and implementation files for this system are available on GitHub at [**rishav-dahal/Ultimate-Notes-Books-Resources-for-NCIT**](https://github.com/rishav-dahal/Ultimate-Notes-Books-Resources-for-NCIT).
+
 For a long time, whenever I had to configure an AWS VPC, Docker network bridge, or reverse proxy subnet, I did what 95% of software engineers do: I blindly copied `10.0.0.0/16` or `192.168.1.0/24` from an online tutorial and hoped I didn't break anything.
 
 That worked until the day I had to peer two VPCs together. Because both had been configured with identical `/16` overlapping IP ranges, routing packets between them was mathematically impossible. To fix it, we had to tear down the entire production infrastructure, re-provision databases, and reassign every IP.
@@ -199,3 +201,15 @@ Usable_Hosts  : 30
 | `/32` | 1 | Single host IP firewall rule (bastion host access) |
 
 Understanding this math saves you from allocating a massive `/16` for three microservices or watching your Kubernetes cluster grind to a halt because your pod subnet ran out of IPs.
+
+
+---
+
+## 🛠️ GitHub Repository & Next Steps
+
+The complete open-source source code and architecture discussed in this guide are publicly available:
+
+- **Project Repository**: [Computer Networks & Subnetting Engineering Modules on GitHub](https://github.com/rishav-dahal/Ultimate-Notes-Books-Resources-for-NCIT)
+- **Developer Profile**: [@rishav-dahal](https://github.com/rishav-dahal)
+
+If you're building a similar system or encounter edge cases in your deployment, feel free to star the repo, file an issue, or submit an optimization pull request!
