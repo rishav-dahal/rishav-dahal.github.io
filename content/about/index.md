@@ -1,6 +1,10 @@
 ---
 title: "About Me"
 date: 2025-01-10T10:00:00+05:45
+description: "About Rishav Dahal — CTO at DLPlatforms Pty Ltd, Backend & DevOps Engineer, and author of published research at ICICSET 2025. Explore professional experience, technical specializations, and projects."
+summary: "Professional background, CTO leadership at DLPlatforms, distributed systems engineering, and academic research of Rishav Dahal."
+keywords: ["Rishav Dahal", "CTO", "DLPlatforms", "Backend Engineer", "DevOps", "DLSurf", "FitHisaab", "Automyc", "ICICSET 2025", "Nepal", "Software Architecture"]
+author: "Rishav Dahal"
 draft: false
 comments: false
 disableShare: true

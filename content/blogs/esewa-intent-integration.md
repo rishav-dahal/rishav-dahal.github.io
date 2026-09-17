@@ -15,6 +15,13 @@ tags:
   - FinTech
 summary: "A complete production engineering guide to integrating eSewa Intent API v2 in Django, covering HMAC-SHA256 signatures, silent callback failures, and verification."
 description: "A complete step-by-step engineering guide for integrating eSewa Intent API v2 into Django REST Framework, including booking, webhook callbacks, and debugging silent production failures."
+author: "Rishav Dahal"
+keywords: ["eSewa", "eSewa Intent API v2", "Django", "Django REST Framework", "Python", "Payment Gateway Integration", "HMAC-SHA256", "Nepal Fintech"]
+cover:
+  image: "/images/esewa-payment-integration.jpg"
+  alt: "eSewa Intent API v2 production integration in Django REST Framework"
+  caption: "HMAC-SHA256 signature generation and idempotent webhook callback verification"
+  relative: false
 showtoc: true
 draft: false
 ---

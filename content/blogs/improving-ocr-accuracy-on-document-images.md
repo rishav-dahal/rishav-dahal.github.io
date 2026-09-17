@@ -16,6 +16,8 @@ tags:
   - Python
 summary: "Practical computer vision pre-processing techniques including denoising, thresholding, binarization, and deskewing to dramatically enhance OCR recognition accuracy on real-world document images."
 description: "Explore step-by-step techniques to improve OCR accuracy on document images using OpenCV, noise filtering, adaptive thresholding, and morphological operations."
+author: "Rishav Dahal"
+keywords: ["OCR", "Tesseract", "OpenCV", "Computer Vision", "Image Preprocessing", "Python", "Binarization", "Document Processing"]
 showtoc: true
 draft: false
 ---

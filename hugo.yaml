@@ -66,6 +66,14 @@ params:
     msapplication_TileColor: "#0057b8"
     disableFingerprinting: false
 
+  schema:
+    publisherType: "Person"
+    sameAs:
+      - "https://www.linkedin.com/in/risaavdahal/"
+      - "https://github.com/rishav-dahal"
+      - "https://risaav.medium.com/"
+      - "https://rishav.dlsurf.com/"
+
   env: production
   title: "Rishav Dahal"
   description: "Portfolio, engineering blogs, and research by Rishav Dahal — CTO at DLPlatforms and Backend & DevOps Engineer specializing in scalable cloud systems, high-availability APIs, and distributed architectures."
@@ -131,7 +139,7 @@ params:
     - name: medium
       url: "https://risaav.medium.com/"
     - name: dlsurf
-      url: "https://rishav.dl.surf/"
+      url: "https://rishav.dlsurf.com/"
 
   cover:
     hidden: false

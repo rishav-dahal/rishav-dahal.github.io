@@ -15,7 +15,7 @@
       {{- $changefreq = "daily" }}
     {{- else if or (eq .Section "blogs") (eq .Section "projects") }}
       {{- $changefreq = "weekly" }}
-    {{- else if eq .RelPermalink "/sitemap/" }}
+    {{- else if eq .RelPermalink "/site-map/" }}
       {{- $changefreq = "weekly" }}
     {{- else }}
       {{- $changefreq = "monthly" }}
@@ -40,7 +40,7 @@
       {{- end }}
     {{- else if or (eq .RelPermalink "/about/") (eq .RelPermalink "/contact/") }}
       {{- $priority = "0.8" }}
-    {{- else if eq .RelPermalink "/sitemap/" }}
+    {{- else if eq .RelPermalink "/site-map/" }}
       {{- $priority = "0.7" }}
     {{- else if or (eq .RelPermalink "/privacy-policy/") (eq .RelPermalink "/terms-and-conditions/") }}
       {{- $priority = "0.5" }}
