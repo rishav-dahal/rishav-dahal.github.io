@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Disallow Cloudflare internal email protection and challenge endpoints
+Disallow: /cdn-cgi/
+
+# Disallow dynamic client-side search query parameters to avoid duplicate crawling
+Disallow: /*?search=*
+
+# Primary XML Sitemap
+Sitemap: https://www.rishavdahal.com.np/sitemap.xml
