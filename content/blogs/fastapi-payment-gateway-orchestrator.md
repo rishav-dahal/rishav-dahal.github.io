@@ -18,7 +18,7 @@ description: "Learn how to build a production payment orchestrator in FastAPI wi
 author: "Rishav Dahal"
 keywords: ["FastAPI Payment Gateway", "Idempotency Keys Python", "eSewa Khalti Orchestrator", "Async SQLAlchemy", "FinTech Architecture"]
 cover:
-  image: "/images/fastapi-payment-orchestrator.jpg"
+  image: "https://cdn.rishavdahal.com.np/fastapi-payment-orchestrator.jpg"
   alt: "High-tech 3D isometric architecture of a digital payment gateway orchestrator with FastAPI"
   caption: "Production payment orchestration pipeline with cryptographic validation and idempotency locks"
   relative: false

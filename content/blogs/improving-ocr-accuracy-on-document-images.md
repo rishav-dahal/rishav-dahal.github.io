@@ -19,6 +19,11 @@ description: "Explore step-by-step techniques to improve OCR accuracy on documen
 author: "Rishav Dahal"
 keywords: ["OCR", "Tesseract", "OpenCV", "Computer Vision", "Image Preprocessing", "Python", "Binarization", "Document Processing"]
 showtoc: true
+cover:
+  image: "https://cdn.rishavdahal.com.np/ocr-comparison.png"
+  alt: "Comparison of Noisy Document vs Pre-processed Clean Document for OCR"
+  caption: "Preprocessing pipeline comparison for document OCR optimization"
+  relative: false
 draft: false
 ---
 
@@ -64,7 +69,7 @@ Below, you can see an example of how these pre-processing methods work in practi
 
 ### Comparison: Noisy vs. Cleaned-Up Image
 
-![Comparison of Noisy Document vs Pre-processed Clean Document for OCR](/images/ocr-comparison.png)
+![Comparison of Noisy Document vs Pre-processed Clean Document for OCR](https://cdn.rishavdahal.com.np/ocr-comparison.png)
 
 Here is a visual comparison showing a document with noisy text on the left side and a cleaned-up version of the document on the right side. You can see how the pre-processed image is much clearer and better suited for OCR extraction.
 

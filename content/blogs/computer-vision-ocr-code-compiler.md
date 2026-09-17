@@ -18,7 +18,7 @@ description: "Learn how to build an OCR code compiler in Python using OpenCV per
 author: "Rishav Dahal"
 keywords: ["OCR Code Compiler", "OpenCV Perspective Transform", "Tesseract Python", "Computer Vision OCR", "Docker Code Execution Sandbox"]
 cover:
-  image: "/images/ocr-code-compiler-cv.jpg"
+  image: "https://cdn.rishavdahal.com.np/ocr-code-compiler-cv.jpg"
   alt: "Computer vision OCR pipeline extracting source code from skewed images and compiling in Docker"
   caption: "End-to-end computer vision perspective rectification and sandboxed code execution pipeline"
   relative: false

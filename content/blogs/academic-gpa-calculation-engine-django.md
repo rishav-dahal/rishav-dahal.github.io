@@ -17,7 +17,7 @@ description: "Learn how to architect an academic grading engine in Django that h
 author: "Rishav Dahal"
 keywords: ["Django CGPA Calculator", "Academic Grading Engine", "Nepal University Grading", "Python Decimal Rounding", "Web Development"]
 cover:
-  image: "/images/academic-cgpa-calculator.jpg"
+  image: "https://cdn.rishavdahal.com.np/academic-cgpa-calculator.jpg"
   alt: "Academic GPA and CGPA analytics architecture and database schema in Django"
   caption: "Production database schema and calculation pipeline for multi-semester university grading"
   relative: false

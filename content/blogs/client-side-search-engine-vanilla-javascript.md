@@ -18,7 +18,7 @@ description: "Learn how to build an in-memory client-side search engine in Vanil
 author: "Rishav Dahal"
 keywords: ["Vanilla JavaScript Search", "Devanagari Unicode Normalization", "Client-Side Search", "Cast in Nepal Gotra Checker", "Web Performance"]
 cover:
-  image: "/images/client-side-search-engine.jpg"
+  image: "https://cdn.rishavdahal.com.np/client-side-search-engine.jpg"
   alt: "Client-side search engine architecture with in-memory prefix indexing and Devanagari normalization"
   caption: "In-memory prefix indexing and Unicode normalization in pure Vanilla JavaScript"
   relative: false

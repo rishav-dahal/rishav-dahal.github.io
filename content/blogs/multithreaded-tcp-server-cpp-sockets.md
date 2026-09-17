@@ -18,7 +18,7 @@ description: "Learn how to build a robust multithreaded TCP server in modern C++
 author: "Rishav Dahal"
 keywords: ["C++ Sockets", "Multithreaded TCP Server", "Thread Pool C++20", "POSIX Socket Programming", "TCP Packet Framing", "SIGPIPE Crash Fix"]
 cover:
-  image: "/images/cpp-tcp-socket-server.jpg"
+  image: "https://cdn.rishavdahal.com.np/cpp-tcp-socket-server.jpg"
   alt: "Futuristic technical illustration of multithreaded C++ socket programming with worker threads and packet streams"
   caption: "Low-level socket programming and thread pool concurrency architecture in modern C++"
   relative: false

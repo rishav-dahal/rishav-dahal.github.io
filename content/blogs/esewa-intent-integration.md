@@ -18,7 +18,7 @@ description: "A complete step-by-step engineering guide for integrating eSewa In
 author: "Rishav Dahal"
 keywords: ["eSewa", "eSewa Intent API v2", "Django", "Django REST Framework", "Python", "Payment Gateway Integration", "HMAC-SHA256", "Nepal Fintech"]
 cover:
-  image: "/images/esewa-payment-integration.jpg"
+  image: "https://cdn.rishavdahal.com.np/esewa-payment-integration.jpg"
   alt: "eSewa Intent API v2 production integration in Django REST Framework"
   caption: "HMAC-SHA256 signature generation and idempotent webhook callback verification"
   relative: false

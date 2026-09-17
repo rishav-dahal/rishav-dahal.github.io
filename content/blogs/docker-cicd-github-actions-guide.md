@@ -18,7 +18,7 @@ description: "A battle-tested DevOps guide to building lean production container
 author: "Rishav Dahal"
 keywords: ["Docker Multi-Stage Build", "GitHub Actions CI/CD", "DevOps Pipeline", "Container Optimization", "Zero-Downtime Deployment"]
 cover:
-  image: "/images/docker-cicd-github-actions.jpg"
+  image: "https://cdn.rishavdahal.com.np/docker-cicd-github-actions.jpg"
   alt: "Production Docker CI/CD pipeline automation with GitHub Actions and multi-stage container builds"
   caption: "Automated container builds, layer caching, and zero-downtime deployment pipelines"
   relative: false

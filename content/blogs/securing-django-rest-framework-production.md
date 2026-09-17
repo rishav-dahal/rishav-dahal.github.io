@@ -18,7 +18,7 @@ description: "Learn how to harden Django REST Framework APIs for production work
 author: "Rishav Dahal"
 keywords: ["Django REST Framework Security", "DRF Redis Throttling", "SimpleJWT Token Rotation", "API Rate Limiting Python", "OWASP Django"]
 cover:
-  image: "/images/securing-django-rest-framework-production.jpg"
+  image: "https://cdn.rishavdahal.com.np/securing-django-rest-framework-production.jpg"
   alt: "Cybersecurity architecture for Django REST Framework with Redis rate limiting and JWT rotation"
   caption: "Production API hardening architecture with distributed Redis sliding windows and cryptographic rotation"
   relative: false

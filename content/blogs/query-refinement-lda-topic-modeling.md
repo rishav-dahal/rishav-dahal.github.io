@@ -18,7 +18,7 @@ description: "Discover how unsupervised topic modeling with Latent Dirichlet All
 author: "Rishav Dahal"
 keywords: ["Query Refinement LDA", "Topic Modeling Information Retrieval", "ICICSET 2025", "Semantic Search Python", "Vocabulary Mismatch", "Scikit-Learn LDA"]
 cover:
-  image: "/images/lda-topic-modeling-nlp.jpg"
+  image: "https://cdn.rishavdahal.com.np/lda-topic-modeling-nlp.jpg"
   alt: "Probabilistic topic modeling and search query refinement with Latent Dirichlet Allocation"
   caption: "Probabilistic topic distribution extraction and term expansion pipeline"
   relative: false

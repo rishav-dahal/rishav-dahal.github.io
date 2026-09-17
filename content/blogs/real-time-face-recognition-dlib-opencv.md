@@ -18,7 +18,7 @@ description: "Learn how to build a real-time biometric face recognition system w
 author: "Rishav Dahal"
 keywords: ["OpenCV Face Recognition", "Dlib 128D Embeddings", "Real-Time Biometric Attendance", "Python Computer Vision", "Haar Cascades vs Deep Metric"]
 cover:
-  image: "/images/face-recognition-attendance.jpg"
+  image: "https://cdn.rishavdahal.com.np/face-recognition-attendance.jpg"
   alt: "Real-time face recognition and biometric attendance pipeline with OpenCV and Dlib"
   caption: "Real-time facial landmark localization and 128D deep metric vector extraction"
   relative: false

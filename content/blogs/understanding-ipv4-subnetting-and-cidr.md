@@ -18,7 +18,7 @@ description: "Master IPv4 subnetting, CIDR notation, and network address calcula
 author: "Rishav Dahal"
 keywords: ["IPv4 Subnetting Guide", "CIDR Calculations", "Bitwise IP Math", "VPC CIDR Design", "Docker Network Subnets", "Python IP Calculator"]
 cover:
-  image: "/images/ipv4-subnetting-cidr-guide.jpg"
+  image: "https://cdn.rishavdahal.com.np/ipv4-subnetting-cidr-guide.jpg"
   alt: "IPv4 Subnetting and CIDR bitwise architecture and network mask calculation breakdown"
   caption: "Low-level bitwise masking and CIDR network address derivation"
   relative: false

@@ -18,7 +18,7 @@ description: "Learn how to architect, isolate, and containerize full-stack PHP a
 author: "Rishav Dahal"
 keywords: ["Docker Compose PHP Nginx", "PHP-FPM FastCGI Docker", "Docker Permission www-data", "Containerizing PHP MySQL", "DevOps Guide"]
 cover:
-  image: "/images/php-nginx-docker-compose.jpg"
+  image: "https://cdn.rishavdahal.com.np/php-nginx-docker-compose.jpg"
   alt: "Full-stack PHP and Nginx container architecture with Docker Compose and FastCGI proxying"
   caption: "Containerized PHP-FPM and Nginx architecture with FastCGI protocol decoupling"
   relative: false
