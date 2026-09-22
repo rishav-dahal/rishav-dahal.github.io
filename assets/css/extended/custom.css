@@ -661,24 +661,25 @@ code, kbd, samp, pre {
 .footer-links a {
   color: var(--secondary);
   font-weight: 500;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
   transition: color var(--transition-fast);
 }
 
 .footer-links a:hover {
   color: var(--brand-blue);
-  text-decoration: underline;
 }
 
 .footer-divider {
-  color: var(--tertiary);
+  color: var(--secondary);
+  opacity: 0.6;
   font-size: 0.75rem;
   user-select: none;
 }
 
 .footer-copyright {
   font-size: 0.86rem;
-  color: var(--tertiary);
+  color: var(--secondary);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -688,13 +689,14 @@ code, kbd, samp, pre {
 
 .footer-copyright a {
   color: var(--secondary);
-  text-decoration: none;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
   transition: color var(--transition-fast);
 }
 
 .footer-copyright a:hover {
   color: var(--brand-blue);
-  text-decoration: underline;
 }
 
 .post-footer:empty {

@@ -5,8 +5,8 @@
         {{- $imgWidth := .imageWidth | default 120 }}
         {{- $imgHeight := .imageHeight | default 120 }}
         <picture>
-            <source srcset="{{ "images/profile.webp" | absURL }}" type="image/webp">
-            <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+            <source srcset="{{ "images/profile.webp" | relURL }}" type="image/webp">
+            <img draggable="false" src="{{ .imageUrl | relURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
                 height="{{ $imgHeight }}" width="{{ $imgWidth }}" loading="eager" fetchpriority="high" />
         </picture>
         {{- end }}

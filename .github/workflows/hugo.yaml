@@ -56,10 +56,12 @@ jobs:
           HUGO_ENVIRONMENT: production
           TZ: America/Los_Angeles
         run: |
+          BASE_URL="${{ steps.pages.outputs.base_url }}"
+          BASE_URL="${BASE_URL/http:\/\//https:\/\/}"
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "${BASE_URL:-https://www.rishavdahal.com.np}/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
