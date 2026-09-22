@@ -1,0 +1,40 @@
+# Rishav Dahal
+
+> Portfolio, technical research, and system engineering blogs by Rishav Dahal — CTO at DLPlatforms and Backend & DevOps Engineer specializing in scalable cloud systems, high-availability APIs, distributed architectures, and AI/CV systems.
+
+## About
+- Name: Rishav Dahal
+- Role: CTO at DLPlatforms | Backend & DevOps Engineer | Research Author (ICICSET 2025)
+- Location: Kathmandu, Nepal
+- Website: https://www.rishavdahal.com.np/
+- GitHub: https://github.com/rishav-dahal
+- LinkedIn: https://www.linkedin.com/in/risaavdahal/
+- Medium: https://risaav.medium.com/
+- Contact: workwithrisaav@gmail.com / contact@rishavdahal.com.np
+
+## Key Skills & Tech Stack
+- Languages: Python, Go (Golang), C++, JavaScript (ES6+), PHP, SQL, Bash
+- Frameworks & Libraries: FastAPI, Django REST Framework, Docker, OpenCV, Dlib, PyTorch, NLTK, Scikit-Learn
+- Cloud & DevOps: Docker, Docker Compose, Kubernetes, CI/CD (GitHub Actions), Nginx, AWS, Cloudflare, Linux System Administration
+- Architectures: Microservices, Distributed Systems, High-Concurrency Web APIs, Event-Driven Architectures, Topic Modeling (LDA), Real-time Computer Vision
+
+## Featured Projects
+- [Cast in Nepal](https://www.rishavdahal.com.np/cast-in-Nepal/): Algorithmic cultural matching, genealogical relationship analysis, and search engine across thousands of Nepalese surnames and lineages.
+- [Modular Query Refinement](https://www.rishavdahal.com.np/projects/modular-query-refinement/): Research publication (ICICSET 2025) introducing LDA Topic Modeling and semantic term extraction for search relevance optimization.
+- [Payment Gateway Orchestrator](https://www.rishavdahal.com.np/blogs/fastapi-payment-gateway-orchestrator/): Resilient, idempotent multi-provider payment router built with FastAPI and Redis.
+- [Real-Time Face Recognition Attendance](https://www.rishavdahal.com.np/blogs/real-time-face-recognition-dlib-opencv/): High-throughput biometric face detection pipeline with OpenCV and Dlib.
+
+## Technical Blogs & Guides
+- [Securing Django REST Framework for Production](https://www.rishavdahal.com.np/blogs/securing-django-rest-framework-production/)
+- [High-Performance Multi-Threaded TCP Server with C++ Sockets](https://www.rishavdahal.com.np/blogs/multithreaded-tcp-server-cpp-sockets/)
+- [Zero-Downtime Docker CI/CD Pipeline with GitHub Actions](https://www.rishavdahal.com.np/blogs/docker-cicd-github-actions-guide/)
+- [Building a Client-Side Search Engine in Vanilla JavaScript](https://www.rishavdahal.com.np/blogs/client-side-search-engine-vanilla-javascript/)
+- [Understanding IPv4 Subnetting, CIDR, and Route Aggregation](https://www.rishavdahal.com.np/blogs/understanding-ipv4-subnetting-and-cidr/)
+- [Improving OCR Accuracy on Degraded Document Images with Pre-Processing](https://www.rishavdahal.com.np/blogs/improving-ocr-accuracy-on-document-images/)
+- [eSewa Intent Payment Gateway Integration Guide](https://www.rishavdahal.com.np/blogs/esewa-intent-integration/)
+- [Containerizing PHP Applications with Nginx and Docker Compose](https://www.rishavdahal.com.np/blogs/containerizing-php-nginx-docker-compose/)
+
+## Machine-Readable Resources
+- Sitemap: https://www.rishavdahal.com.np/sitemap.xml
+- RSS Feed: https://www.rishavdahal.com.np/index.xml
+- JSON Index: https://www.rishavdahal.com.np/index.json

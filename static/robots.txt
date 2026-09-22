@@ -7,5 +7,7 @@ Disallow: /cdn-cgi/
 # Disallow dynamic client-side search query parameters to avoid duplicate crawling
 Disallow: /*?search=*
 
-# Primary XML Sitemap
+# Primary XML Sitemap & AI Agent Knowledge
 Sitemap: https://www.rishavdahal.com.np/sitemap.xml
+# LLMs.txt for Agentic Browsing
+# https://www.rishavdahal.com.np/llms.txt

@@ -1,4 +1,4 @@
-baseURL: "https://rishavdahal.com.np/"
+baseURL: "https://www.rishavdahal.com.np/"
 title: "Rishav Dahal"
 theme: PaperMod
 
@@ -102,13 +102,14 @@ params:
     text: "Rishav"
     icon: "images/logo.png"
     iconHeight: 35
+    iconWidth: 35
 
   # profile-mode
   profileMode:
     enabled: true
     title: "Hi, I'm Rishav Dahal <span class=\"wave-emoji\">👋</span>"
     subtitle: "CTO at DLPlatforms • Backend & DevOps Engineer • Research Author (ICICSET 2025). Building high-availability APIs, scalable cloud automation, and distributed systems."
-    imageUrl: "images/profile.jpg"
+    imageUrl: "images/profile.webp"
     imageWidth: 120
     imageHeight: 120
     imageTitle: "CTO & Backend / DevOps Engineer"

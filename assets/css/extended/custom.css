@@ -3,6 +3,34 @@
    Modern, High-Contrast, Glassmorphic & Developer-Centric Design System
    ========================================================================== */
 
+/* --- Self-Hosted High-Performance Variable Fonts (Zero Render-Blocking, Zero CLS) --- */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/inter.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500 800;
+  font-display: swap;
+  src: url('/fonts/outfit.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('/fonts/jetbrainsmono.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 /* --- Font & Global Tokens --- */
 :root {
   --main-width: 920px;
@@ -35,7 +63,7 @@
   --entry: #ffffff;
   --primary: #111827;
   --secondary: #4b5563;
-  --tertiary: #9ca3af;
+  --tertiary: #6b7280;
   --content: #1f2937;
   --border: #e5e7eb;
   --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
@@ -114,6 +142,14 @@ code, kbd, samp, pre {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+.logo a img {
+  width: 35px;
+  height: 35px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  display: inline-block;
 }
 
 .logo-switches {
@@ -210,6 +246,10 @@ code, kbd, samp, pre {
 }
 
 .profile_inner img {
+  width: 120px;
+  height: 120px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 50%;
   padding: 4px;
   background: linear-gradient(135deg, var(--brand-blue), #60a5fa);
