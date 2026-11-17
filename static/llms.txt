@@ -19,7 +19,7 @@
 - Architectures: Microservices, Distributed Systems, High-Concurrency Web APIs, Event-Driven Architectures, Topic Modeling (LDA), Real-time Computer Vision
 
 ## Featured Projects
-- [Cast in Nepal](https://www.rishavdahal.com.np/cast-in-Nepal/): Algorithmic cultural matching, genealogical relationship analysis, and search engine across thousands of Nepalese surnames and lineages.
+- [Cast in Nepal](https://www.rishavdahal.com.np/cast-in-nepal/): Algorithmic cultural matching, genealogical relationship analysis, and search engine across thousands of Nepalese surnames and lineages.
 - [Modular Query Refinement](https://www.rishavdahal.com.np/projects/modular-query-refinement/): Research publication (ICICSET 2025) introducing LDA Topic Modeling and semantic term extraction for search relevance optimization.
 - [Payment Gateway Orchestrator](https://www.rishavdahal.com.np/blogs/fastapi-payment-gateway-orchestrator/): Resilient, idempotent multi-provider payment router built with FastAPI and Redis.
 - [Real-Time Face Recognition Attendance](https://www.rishavdahal.com.np/blogs/real-time-face-recognition-dlib-opencv/): High-throughput biometric face detection pipeline with OpenCV and Dlib.

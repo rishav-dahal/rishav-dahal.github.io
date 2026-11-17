@@ -36,3 +36,50 @@
     </div>
     {{- end }}
 </div>
+
+{{/* Featured Content & Latest Engineering Articles for AdSense Compliance & User Engagement */}}
+<section class="home-featured-section" style="margin-top: 2rem;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.5rem; border-bottom: 2px solid var(--border); padding-bottom: 0.5rem;">
+        <h2 style="font-size: 1.5rem; font-weight: 700; margin: 0; color: var(--primary);">Latest Engineering Guides &amp; Research</h2>
+        <a href="{{ "/blogs/" | absLangURL }}" style="font-size: 0.9rem; font-weight: 600; color: var(--brand-blue); text-decoration: none;">View All Blogs &rarr;</a>
+    </div>
+
+    {{- $blogs := where site.RegularPages "Section" "blogs" }}
+    {{- range first 5 $blogs }}
+    <article class="post-entry">
+        <header class="entry-header">
+            <h2 class="entry-hint-parent">{{ .Title }}</h2>
+        </header>
+        {{- if (ne (.Param "hideSummary") true) }}
+        <div class="entry-content">
+            <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+        </div>
+        {{- end }}
+        <footer class="entry-footer">
+            {{- partial "post_meta.html" . -}}
+        </footer>
+        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+    </article>
+    {{- end }}
+
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-top: 3rem; margin-bottom: 1.5rem; border-bottom: 2px solid var(--border); padding-bottom: 0.5rem;">
+        <h2 style="font-size: 1.5rem; font-weight: 700; margin: 0; color: var(--primary);">Featured Projects &amp; Archives</h2>
+        <a href="{{ "/projects/" | absLangURL }}" style="font-size: 0.9rem; font-weight: 600; color: var(--brand-blue); text-decoration: none;">View All Projects &rarr;</a>
+    </div>
+
+    {{- $projects := where site.RegularPages "Section" "projects" }}
+    {{- range first 3 $projects }}
+    <article class="post-entry">
+        <header class="entry-header">
+            <h2 class="entry-hint-parent">{{ .Title }}</h2>
+        </header>
+        <div class="entry-content">
+            <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+        </div>
+        <footer class="entry-footer">
+            {{- partial "post_meta.html" . -}}
+        </footer>
+        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+    </article>
+    {{- end }}
+</section>

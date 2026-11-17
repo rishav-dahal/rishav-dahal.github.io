@@ -28,7 +28,7 @@ draft: false
 
 > 📦 **Open Source Repository**: The complete production dataset, prefix search engine, and Gotra Compatibility Checker are open-source on GitHub at [**rishav-dahal/cast-in-Nepal**](https://github.com/rishav-dahal/cast-in-Nepal).
 
-When I started building **[Cast in Nepal](/cast-in-Nepal/)**—an open archive documenting over 700 verified Nepali surnames, gotras, and clan lineages—my first instinct was to spin up a quick backend API with PostgreSQL and full-text search.
+When I started building **[Cast in Nepal](/cast-in-nepal/)**—an open archive documenting over 700 verified Nepali surnames, gotras, and clan lineages—my first instinct was to spin up a quick backend API with PostgreSQL and full-text search.
 
 Then I paused and looked at the reality of how people would actually use it:
 Most users in Nepal browse on mobile devices over 3G/4G cellular connections (Nepal Telecom or Ncell), where round-trip network latency easily hits 150ms to 300ms. If I made an HTTP request on every keystroke in a search bar:
@@ -188,7 +188,7 @@ function updateUrlState(groomId, brideId) {
 }
 ```
 
-When a friend opens the link `https://www.rishavdahal.com.np/cast-in-Nepal/?view=checker&groom=dahal&bride=timilsina`:
+When a friend opens the link `https://www.rishavdahal.com.np/cast-in-nepal/?view=checker&groom=dahal&bride=timilsina`:
 1. `window.addEventListener('DOMContentLoaded')` inspects `window.location.search`.
 2. It automatically matches the slug `dahal` to the record array.
 3. It triggers the checker computation and displays the compatibility verdict immediately.
@@ -237,4 +237,4 @@ You don't always need a server or a 50KB npm library to deliver instant search. 
 - Use native `URLSearchParams` to make every search state shareable.
 - Ensure your CSS grid tracks use `minmax(0, 1fr)` to prevent mobile overflow.
 
-You can inspect the live implementation in action on **[Cast in Nepal](/cast-in-Nepal/)** or explore the source code directly on [GitHub](https://github.com/rishav-dahal/cast-in-Nepal).
+You can inspect the live implementation in action on **[Cast in Nepal](/cast-in-nepal/)** or explore the source code directly on [GitHub](https://github.com/rishav-dahal/cast-in-Nepal).

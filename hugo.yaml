@@ -119,7 +119,7 @@ params:
       - name: Projects
         url: projects
       - name: Cast in Nepal
-        url: /cast-in-Nepal/
+        url: /cast-in-nepal/
       - name: Search
         url: search
       - name: Contact
@@ -175,7 +175,7 @@ menu:
       weight: 2
     - identifier: cast-in-nepal
       name: Cast in Nepal
-      url: /cast-in-Nepal/
+      url: /cast-in-nepal/
       weight: 3
     - identifier: search
       name: Search

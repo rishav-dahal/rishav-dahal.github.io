@@ -78,7 +78,7 @@ Whether scaling production platforms across **DLSurf**, **FitHisaab**, and **Aut
 
 ### 🚀 Featured Engineering Projects & Deep Dives
 
-- **[Cast in Nepal — Surnames & Gotra Archive](/cast-in-Nepal/)**: Open-access digital archive documenting 700+ verified Nepali surnames, gotras, ethnic affiliations, and kuldevtas with instant real-time search ([Project Details](/projects/cast-in-nepal/)).
+- **[Cast in Nepal — Surnames & Gotra Archive](/cast-in-nepal/)**: Open-access digital archive documenting 700+ verified Nepali surnames, gotras, ethnic affiliations, and kuldevtas with instant real-time search ([Project Details](/projects/cast-in-nepal/)).
 - **[eSewa Intent Payment Gateway Integration](/blogs/esewa-intent-api-v2-django/)**: Authored a complete production architectural guide for implementing eSewa v2 Intent APIs in Django with HMAC-SHA256 cryptography and webhook failover mechanisms.
 - **[Modular Query Refinement (NLP & Semantic Search)](/projects/modular-query-refinement/)**: Researched and developed an unsupervised query enhancement engine leveraging LDA topic coherence.
 - **[OCR Code Compiler 2.0](/projects/ocr-code-compiler/)**: Developed an end-to-end computer vision pipeline for extracting source code from document images with perspective correction and sandboxed code execution.

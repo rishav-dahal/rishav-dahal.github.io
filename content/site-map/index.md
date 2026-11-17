@@ -71,7 +71,7 @@ Explore all articles with tags and categories on the **[Blogs Archive](/blogs/)*
 
 Open-source tools, live web apps, distributed systems, and applied research implementations:
 
-- **[Cast in Nepal — Surnames, Gotra & Kuldevta Archive](/cast-in-Nepal/)** *(Live Web App)*
+- **[Cast in Nepal — Surnames, Gotra & Kuldevta Archive](/cast-in-nepal/)** *(Live Web App)*
   *Fast, searchable open-access digital archive cataloging 700+ verified Nepali surnames, gotras, ethnic affiliations, and kuldevtas ([Project Case Study](/projects/cast-in-nepal/)).*
 - **[Modular Query Refinement via Unsupervised Reranking](/projects/modular-query-refinement/)**
   *Academic research and implementation framework presented at ICICSET 2025 detailing pseudo-relevance feedback and semantic query expansion.*

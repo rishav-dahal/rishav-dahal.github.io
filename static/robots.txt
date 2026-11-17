@@ -4,8 +4,8 @@ Allow: /
 # Disallow Cloudflare internal email protection and challenge endpoints
 Disallow: /cdn-cgi/
 
-# Disallow dynamic client-side search query parameters to avoid duplicate crawling
-Disallow: /*?search=*
+# Disallow dynamic client-side search and filter query parameters to avoid duplicate crawling
+Disallow: /*?*
 
 # Primary XML Sitemap & AI Agent Knowledge
 Sitemap: https://www.rishavdahal.com.np/sitemap.xml
